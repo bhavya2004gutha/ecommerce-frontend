@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hi">
+  <header>
+    <div class="home">
+    <h1>My Store</h1>
+    </div>
+    <div class="pagehome">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="logout.html">Logout</a>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Categories</h2>
+    <select id="category-filter">
+      <option value="all">All</option>
+      <option value="Electronics">Electronics</option>
+      <option value="fashion">Fashion</option>
+      <option value="home">Home</option>
+      <option value="books">Books</option>
+      <option value="toys">Toys</option>
+    </select>
+
+    <h2>Products</h2>
+    <div id="productsContainer" class="products-grid"></div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

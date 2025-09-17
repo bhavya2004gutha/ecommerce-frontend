@@ -1,0 +1,80 @@
+header {
+  display: flex;                /* put children side by side */
+  justify-content: space-between; /* push left and right apart */
+  align-items: center;          /* align vertically */
+  padding: 1rem 2rem;
+  background-color: lightgray;
+  color: rgb(1, 0, 0);
+}
+
+/* Signup Form */
+form#signup-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  
+}
+
+
+form#signup-form input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form#signup-form button{
+  background-color: limegreen;
+  color:white;
+ 
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body.hi {
+  background: linear-gradient(135deg, #dfe6e9, #b2bec3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  background: #2d3436;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #74b9ff;
+} */
